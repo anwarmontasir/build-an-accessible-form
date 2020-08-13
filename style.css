@@ -50,6 +50,21 @@ body {
     border-left: none;
 }
 
+#summary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+}
+#summary i {
+    margin-right: 12px;
+    color: #465;
+}
+#summary p:last-child {
+    font-size: 1.333rem;
+    margin-top: 5px;
+}
+
 legend {
     font-weight: 700;
     font-size: 1.5rem;
@@ -87,6 +102,6 @@ button {
     font-size: 18px;
     border: none;
     border-radius: 8px;
-    margin: 1.5rem auto 0;
+    margin: 1.5rem auto 2.5rem;
     display: block;
 }
