@@ -3,13 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tacos By Roscoe | Delivery Information Form</title>
+    <meta name="description" content="Tacos By Roscoe is not a real restaurant, as far as I know. This is a demo by Anwar Montasir for a Team Treehouse lesson on accessible forms.">
+    <title>Tacos By Roscoe | Delivery Information</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,900;1,400;1,700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    
+    <header>
+        <div id="logo">
+            <div class="container">
+                <img src="images/taco-emoji.png" alt="Tacos By Roscoe taco emoji logo" id="logo-img">
+                <span id="logo-text">Tacos By Roscoe</span>
+            </div> 
+        </div>
+        <nav class="container">
+            <ul class="nav-flex">
+                <li class="current"><a href="index.html">Delivery</a></li>
+                <li><a href="billing.html">Billing</a></li>
+                <li><a href="review.html">Review</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <main>
+        <div id="summary">
+            <i class="fas fa-utensils fa-3x"></i>
+            <div id="summary-text">
+                <p>Delivery by 7pm, April 13, 2020</p>
+                <p>6 items, <span class="check"></span> $31.44</p>
+            </div>
+        </div>
+        <form action="billing.html">
+            <fieldset>
+                <legend>Delivery Information</legend>
+                <p id="note"><span class="star">*</span> required field</p>
+                <label for="name">Name<span class="star">*</span></label>
+                <input type="text" id="name" name="name" required class="no-hint">
+                <label for="email">Email<span class="star">*</span></label>
+                <input type="email" id="email" name="email" required>
+                <p class="hint">Receipt will be sent to this address.</p>
+                <label for="address1">Address<span class="star">*</span></label>
+                <input type="text" id="address1" name="address1" required class="no-hint">
+                <label for="address2">Apartment/Office Number</label>
+                <input type="text" id="address2" name="address2" class="no-hint">
+                <label for="zip">Zip Code<span class="star">*</span></label>
+                <input type="text" id="zip" name="zip" required>
+                <p class="hint">City and state will be looked up from Zip Code.</p>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+                <p class="hint">No phone? Include alternate contact below.</p>
+                <label for="delivery-instructions">Delivery Instructions</label>
+                <textarea id="delivery-instructions" name="delivery-instructions"></textarea>
+            </fieldset>
+            <button type="submit">Continue to Billing</button>
+        </form>
+    </main> -->
 </body>
 </html>
