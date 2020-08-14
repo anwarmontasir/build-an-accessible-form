@@ -87,7 +87,6 @@ input:focus, textarea:focus {
     outline: 3px solid #09f;
 }
 
-.star {font-size: 24px;}
 .hint {
     font-weight: 300;
     color: #666;
